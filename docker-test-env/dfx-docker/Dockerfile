@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:kinetic
 
 COPY dfx.json .
 RUN apt -yq update && apt -yqq install --no-install-recommends curl  ca-certificates
