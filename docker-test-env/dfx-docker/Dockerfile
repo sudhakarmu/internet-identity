@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 
 COPY dfx.json .
 RUN apt -yq update && apt -yqq install --no-install-recommends curl  ca-certificates
